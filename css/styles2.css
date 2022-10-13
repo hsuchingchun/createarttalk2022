@@ -45,9 +45,9 @@ canvas.threeweb {
 
 .content-brand {
     /* display: grid; */
-    gap: 1em;
+    /* gap: 1em; */
     width: 100%;
-    padding-top: 2em;
+    padding-top: 1em;
     position: relative;
 }
 
@@ -100,7 +100,7 @@ canvas.threeweb {
         top: 1700px;
     }
     .container-brand {
-        height: 100vh;
+        height: 85vh;
     }
     #footer {
         top: 3100px;
