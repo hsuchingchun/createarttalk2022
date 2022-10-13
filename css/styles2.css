@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700&display=swap');
+
+/* footer bottom */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#footer {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    /*設定footer本身高度*/
+}
+
+
+/* brand */
+
+canvas.threeweb {
+    /* position: absolute; */
+    background: linear-gradient(to bottom, #000000 0%, #1ca39b 100%);
+    width: 100%;
+    height: 100%;
+}
+
+.container-brand {
+    /* background: linear-gradient(to bottom, #11e8bb 0%, #8200c9 100%); */
+    color: white;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    top: 85px;
+    text-align: center;
+}
+
+.content-brand {
+    /* display: grid; */
+    gap: 1em;
+    width: 100%;
+    padding-top: 2em;
+    position: relative;
+}
+
+#services {
+    /* background: linear-gradient(to bottom, #1ca39b 0%, #ffffff 100%); */
+    margin: 0;
+    position: absolute;
+    /* display: flex; */
+    padding-left: 45px;
+    width: 100%;
+}
+
+#portfolio {
+    position: absolute;
+    width: 100%;
+}
+
+#brand,
+#slogan {
+    flex-basis: 0;
+    flex-grow: 1;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+#slogan {
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    pointer-events: fill;
+    opacity: 0.7;
+}
+
+@media (min-width: 375px) {
+    #services {
+        top: 590px;
+    }
+    #brand {
+        font-size: 1.5rem;
+    }
+    #portfolio {
+        top: 1700px;
+    }
+    .container-brand {
+        height: 100vh;
+    }
+    #footer {
+        top: 3100px;
+    }
+}
+
+@media (min-width: 576px) {
+    #services {
+        top: 590px;
+    }
+    #brand {
+        font-size: 2rem;
+    }
+    #portfolio {
+        top: 1700px;
+    }
+    .container-brand {
+        height: 100vh;
+    }
+    #footer {
+        top: 2600px;
+    }
+}
+
+@media (min-width: 768px) {
+    #services {
+        top: 590px;
+    }
+    #portfolio {
+        top: 170px;
+    }
+    .container-brand {
+        height: 100vh;
+    }
+    #footer {
+        top: 2600px;
+    }
+}
+
+@media (min-width: 992px) {
+    #services {
+        top: 600px;
+    }
+    #portfolio {
+        top: 1200px;
+    }
+    #brand {
+        font-size: 3rem;
+    }
+    .container-brand {
+        height: 100vh;
+    }
+    #footer {
+        top: 1800px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #services {
+        top: 600px;
+    }
+    #portfolio {
+        top: 1200px;
+    }
+    #brand {
+        font-size: 4rem;
+    }
+    .container-brand {
+        height: 100vh;
+    }
+    #footer {
+        top: 1800px;
+    }
+}
+
+
+/* index */
+
+.nav-logo {
+    height: 25px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+.box-shadow-dark {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+.box-shadow-light {
+    box-shadow: 0 0.25rem 0.75rem rgba(255, 255, 255, .05);
+}
+
+.btn-outline-white {
+    background-color: transparent;
+    border: #f8f9fa solid 1px;
+    box-shadow: 0 0.25rem 1rem rgba(255, 255, 255, .3);
+}
+
+.slogan-font {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text-white {
+    color: white;
+}
+
+i {
+    font-size: 48px;
+}
+
+.img-fluid {
+    height: 250px;
+    /* padding: 10px; */
+}
+
+.portfolio-box-caption {
+    height: 250px;
+}
+
+#submit {
+    /* width: 150px; */
+    /* margin-left: 170px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 0rem;
+}
+
+
+/* Pricing */
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    background-color: #000;
+    color: white;
+    padding: 5px 20px;
+    border-bottom: #000 solid 1px;
+}
+
+.table-row-head {
+    background-color: #000;
+}
+
+
+/* project */
+
+.card.project-block {
+    border: none;
+}
+
+.project-image {
+    display: flex;
+    height: 100px;
+    width: 300px;
+}
+
+.card-text {
+    font-size: small;
+}
