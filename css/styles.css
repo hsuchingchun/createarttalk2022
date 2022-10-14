@@ -4890,7 +4890,7 @@ fieldset:disabled .btn {
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.25rem;
 }
 
@@ -4928,7 +4928,8 @@ fieldset:disabled .btn {
 
 .card-title {
     margin-bottom: 0.5rem;
-    font-weight: 600;
+    font-weight: 500;
+    color: #1ca39b;
 }
 
 .card-subtitle {
@@ -11144,15 +11145,15 @@ body {
 .btn-xl {
     padding: 0.5rem 2.25rem;
     font-size: 0.85rem;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     border: none;
-    border-radius: 10rem;
+    /* border-radius: 10rem; */
 }
 
 hr.divider {
     height: 0.2rem;
-    max-width: 3.25rem;
+    max-width: .25rem;
     margin: 1.5rem auto;
     background-color: #1ca39b;
     opacity: 1;

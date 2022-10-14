@@ -40,7 +40,7 @@ body {
     height: 100vh;
     display: grid;
     place-content: center;
-    top: 85px;
+    /* top: 85px; */
     text-align: center;
     overflow-y: hidden;
 }
@@ -48,6 +48,7 @@ body {
 .content-brand {
     /* display: grid; */
     /* gap: 1em; */
+    top: 85px;
     width: 100%;
     padding-top: 1em;
     position: relative;
@@ -61,6 +62,8 @@ body {
     /* padding-left: 45px; */
     width: 100%;
     object-fit: cover;
+    /* background: linear-gradient(rgba(255, 255, 255, .1), rgba(255, 255, 255, .8)), url('../assets/img/portfolio/nycu_techno.png'); */
+    /* background-size: cover; */
 }
 
 #portfolio {
@@ -92,63 +95,63 @@ body {
     opacity: 0.7;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 320px) {
     #services {
-        top: 590px;
+        top: 560px;
     }
     #brand {
         font-size: 1.5rem;
     }
     #portfolio {
-        top: 1700px;
+        top: 1600px;
     }
     .container-brand {
         height: 85vh;
     }
     #footer {
-        top: 3100px;
+        top: 3050px;
     }
 }
 
 @media (min-width: 576px) {
     #services {
-        top: 590px;
+        top: 560px;
     }
     #brand {
         font-size: 2rem;
     }
     #portfolio {
-        top: 1700px;
+        top: 1600px;
     }
     .container-brand {
-        height: 100vh;
+        height: 85vh;
     }
     #footer {
-        top: 2600px;
+        top: 2500px;
     }
 }
 
 @media (min-width: 768px) {
     #services {
-        top: 590px;
+        top: 560px;
     }
     #portfolio {
-        top: 1700px;
+        top: 1500px;
     }
     .container-brand {
         height: 100vh;
     }
     #footer {
-        top: 2600px;
+        top: 2400px;
     }
 }
 
 @media (min-width: 992px) {
     #services {
-        top: 600px;
+        top: 580px;
     }
     #portfolio {
-        top: 1200px;
+        top: 1100px;
     }
     #brand {
         font-size: 3rem;
@@ -163,10 +166,10 @@ body {
 
 @media (min-width: 1200px) {
     #services {
-        top: 650px;
+        top: 590px;
     }
     #portfolio {
-        top: 1200px;
+        top: 1100px;
     }
     #brand {
         font-size: 4rem;
@@ -176,6 +179,24 @@ body {
     }
     #footer {
         top: 1800px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #services {
+        top: 1050px;
+    }
+    #portfolio {
+        top: 1600px;
+    }
+    #brand {
+        font-size: 4rem;
+    }
+    .container-brand {
+        height: 100vh;
+    }
+    #footer {
+        top: 2500px;
     }
 }
 
@@ -189,7 +210,27 @@ body {
 }
 
 h2 {
-    font-weight: 600;
+    font-weight: 400;
+}
+
+.text-spacing {
+    letter-spacing: 3px;
+}
+
+.text-spacing-s {
+    letter-spacing: 1px;
+}
+
+.line-bottom {
+    border-bottom: #1ca39b 2px solid;
+    top: 140px;
+    left: 0;
+    transform: scaleX(0.3);
+    width: 100%;
+}
+
+i {
+    color: #1ca39b;
 }
 
 .box-shadow-dark {

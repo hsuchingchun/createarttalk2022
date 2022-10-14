@@ -1,11 +1,14 @@
 $(() => {
-    $('#loading').delay(3000).fadeOut(2000);
-    $('#preloader').delay(5000).fadeOut(2000);
-    $('#loader').delay(5000).fadeOut(2000);
+    $('.navbar').hide();
+    $('.navbar').delay(3000).fadeIn(2000);
+    // $('#preloader').delay(5000).fadeOut(2000);
+    // $('#loader').delay(5000).fadeOut(2000);
 
     // window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
+
+
     var navbarShrink = function() {
         const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
@@ -51,6 +54,6 @@ $(() => {
     new SimpleLightbox({
         elements: '#portfolio a.portfolio-box'
     });
-
+    new WOW().init();
 });
 // });
