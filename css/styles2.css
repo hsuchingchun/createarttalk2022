@@ -97,7 +97,7 @@ body {
 
 @media (min-width: 320px) {
     #services {
-        top: 900px;
+        top: 850px;
     }
     #brand {
         font-size: 1.5rem;
@@ -133,22 +133,22 @@ body {
 
 @media (min-width: 768px) {
     #services {
-        top: 560px;
+        top: 1050px;
     }
     #portfolio {
-        top: 1500px;
+        top: 2000px;
     }
     .container-brand {
         height: 100vh;
     }
     #footer {
-        top: 2400px;
+        top: 2900px;
     }
 }
 
 @media (min-width: 992px) {
     #services {
-        top: 590px;
+        top: 1050px;
     }
     #portfolio {
         top: 1100px;
