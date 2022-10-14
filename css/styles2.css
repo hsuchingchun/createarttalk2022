@@ -23,11 +23,12 @@ body {
 
 /* brand */
 
-canvas.threeweb {
+.threeweb {
     /* position: absolute; */
     background: linear-gradient(to bottom, #000000 0%, #1ca39b 100%);
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .container-brand {
@@ -41,6 +42,7 @@ canvas.threeweb {
     place-content: center;
     top: 85px;
     text-align: center;
+    overflow-y: hidden;
 }
 
 .content-brand {
@@ -56,8 +58,9 @@ canvas.threeweb {
     margin: 0;
     position: absolute;
     /* display: flex; */
-    padding-left: 45px;
+    /* padding-left: 45px; */
     width: 100%;
+    object-fit: cover;
 }
 
 #portfolio {
@@ -89,7 +92,7 @@ canvas.threeweb {
     opacity: 0.7;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 360px) {
     #services {
         top: 590px;
     }
@@ -130,7 +133,7 @@ canvas.threeweb {
         top: 590px;
     }
     #portfolio {
-        top: 170px;
+        top: 1700px;
     }
     .container-brand {
         height: 100vh;
@@ -160,7 +163,7 @@ canvas.threeweb {
 
 @media (min-width: 1200px) {
     #services {
-        top: 600px;
+        top: 650px;
     }
     #portfolio {
         top: 1200px;
