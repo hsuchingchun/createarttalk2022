@@ -1,6 +1,10 @@
 $(() => {
-    $('.navbar').hide();
-    $('.navbar').delay(3000).fadeIn(2000);
+    // $('.navbar').hide();
+    // $('#mainNav').show();
+    $('#mainNav').css('visibility', 'visible').hide()
+    $('#mainNav').delay(2000).fadeIn(2000)
+
+    // $('.navbar')
     // $('#preloader').delay(5000).fadeOut(2000);
     // $('#loader').delay(5000).fadeOut(2000);
 

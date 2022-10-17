@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', event => {
-
-    // Navbar shrink function
+    $('#mainNav').css('visibility', 'visible')
+        // Navbar shrink function
     var navbarShrink = function() {
         const navbarCollapsible = document.body.querySelector('#mainNav');
         navbarCollapsible.classList.add('navbar-shrink')

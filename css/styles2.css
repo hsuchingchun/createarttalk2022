@@ -25,6 +25,13 @@ body {
 }
 
 
+/* [class^="bi-"]::before {
+    border: #1ca39b 1px solid;
+    border-radius: 50%;
+    padding: 15px;
+} */
+
+
 /* brand */
 
 .threeweb {
@@ -83,7 +90,7 @@ body {
 }
 
 #slogan {
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 10px;
     text-align: center;
 }
@@ -138,10 +145,10 @@ body {
 
 @media (min-width: 768px) {
     #services {
-        top: 1200px;
+        top: 1150px;
     }
     #portfolio {
-        top: 1700px;
+        top: 1600px;
     }
     #brand {
         font-size: 3rem;
@@ -151,9 +158,6 @@ body {
     }
     .container-brand {
         height: 110vh;
-    }
-    #particles-js {
-        /* top: 50px; */
     }
     #footer {
         top: 2600px;
@@ -169,6 +173,9 @@ body {
     }
     #brand {
         font-size: 3rem;
+    }
+    #slogan {
+        font-size: 1.5rem;
     }
     .container-brand {
         height: 100vh;
@@ -188,6 +195,9 @@ body {
     #brand {
         font-size: 4rem;
     }
+    #slogan {
+        font-size: 1.5rem;
+    }
     .container-brand {
         height: 100vh;
     }
@@ -206,6 +216,9 @@ body {
     #brand {
         font-size: 4rem;
     }
+    #slogan {
+        font-size: 1.5rem;
+    }
     .container-brand {
         height: 100vh;
     }
@@ -217,6 +230,11 @@ body {
 
 /* index */
 
+#mainNav {
+    visibility: hidden;
+    /* visibility: visible; */
+}
+
 .nav-logo {
     height: 25px;
     padding-bottom: 5px;
@@ -224,7 +242,11 @@ body {
 }
 
 h2 {
-    font-weight: 400;
+    font-weight: 500;
+}
+
+h6 {
+    font-weight: 600;
 }
 
 .text-spacing {
@@ -245,6 +267,7 @@ h2 {
 
 i {
     color: #1ca39b;
+    font-size: 48px;
 }
 
 .box-shadow-dark {
@@ -267,10 +290,6 @@ i {
 
 .text-white {
     color: white;
-}
-
-i {
-    font-size: 48px;
 }
 
 .img-fluid {
