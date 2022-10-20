@@ -121,7 +121,7 @@ body {
         height: 100vh;
     }
     #footer {
-        top: 3300px;
+        top: 2500px;
     }
 }
 
@@ -166,10 +166,10 @@ body {
 
 @media (min-width: 992px) {
     #services {
-        top: 1200px;
+        top: 600px;
     }
     #portfolio {
-        top: 2200px;
+        top: 1100px;
     }
     #brand {
         font-size: 3rem;
@@ -181,7 +181,7 @@ body {
         height: 100vh;
     }
     #footer {
-        top: 2600px;
+        top: 1900px;
     }
 }
 
@@ -241,12 +241,23 @@ body {
     margin-right: 5px;
 }
 
-h2 {
-    font-weight: 500;
-}
 
+/* h2 {
+    font-weight: 500;
+} */
+
+
+/* 
 h6 {
     font-weight: 600;
+} */
+
+
+/*index- project */
+
+.intro-short {
+    white-space: pre-line;
+    width: 30%;
 }
 
 .text-spacing {
@@ -268,6 +279,11 @@ h6 {
 i {
     color: #1ca39b;
     font-size: 48px;
+}
+
+.bi-chevron-left,
+.bi-chevron-right {
+    font-size: 2.5rem;
 }
 
 .box-shadow-dark {
@@ -344,4 +360,48 @@ i {
 
 .card-text {
     font-size: small;
+}
+
+.project-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /* background-color: transparent; */
+    background-clip: border-box;
+    /* border: 1px solid rgba(0, 0, 0, 0.2); */
+    border-radius: 0.25rem;
+    width: 100%;
+    margin: auto;
+    box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.hide-filter {
+    display: none;
+}
+
+
+/* .filter {
+    margin-left: 5rem;
+} */
+
+.filter h6 {
+    cursor: pointer;
+}
+
+.filter-border {
+    background-color: rgba(28, 163, 155, 0.1);
+    /* border-bottom: 1.5px solid #1ca39b; */
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 10px;
+    width: 5px;
+    margin: auto;
 }
