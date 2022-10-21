@@ -191,6 +191,7 @@ p {
     margin-bottom: 1rem;
     font-weight: 300;
     letter-spacing: 1px;
+    line-height: 2rem;
 }
 
 abbr[title],
@@ -247,8 +248,9 @@ strong {
 
 small,
 .small {
-    font-size: 0.875em;
-    font-weight: 00;
+    /* font-size: 0.875em; */
+    font-size: 1em;
+    font-weight: 400;
 }
 
 mark,
@@ -274,14 +276,16 @@ sup {
 }
 
 a {
-    color: #1ca39b;
-    text-decoration: underline;
+    color: #fff;
+    text-decoration: none;
+    /* text-decoration: underline; */
     cursor: pointer;
 }
 
-a:hover {
+
+/* a:hover {
     color: #c34e2e;
-}
+} */
 
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
@@ -661,7 +665,8 @@ progress {
 
 .img-fluid {
     max-width: 100%;
-    height: auto;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
 }
 
@@ -4897,7 +4902,7 @@ fieldset:disabled .btn {
     background-clip: border-box;
     /* border: 1px solid rgba(0, 0, 0, 0.2); */
     /* border-radius: 0.25rem; */
-    width: 85%;
+    max-width: 80%;
     margin: auto;
     box-shadow: 3px 5px 10px 1px rgba(0, 0, 0, 0.2);
 }
@@ -6575,6 +6580,8 @@ fieldset:disabled .btn {
     display: none;
     float: left;
     width: 100%;
+    /* height: 400px; */
+    object-fit: cover;
     margin-right: -100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -6716,7 +6723,7 @@ fieldset:disabled .btn {
     right: 0;
     bottom: 100px;
     left: 0;
-    top: 31vw;
+    /* top: 31vw; */
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -6764,7 +6771,7 @@ fieldset:disabled .btn {
     right: 0%;
     bottom: 0rem;
     /* left: 12.5%; */
-    padding-top: 6.5rem;
+    padding-top: 3rem;
     padding-bottom: 1.25rem;
     padding-left: 2rem;
     color: #fff;
@@ -11300,7 +11307,8 @@ header.masthead .h1 {
     }
 }
 
-#portfolio .container-fluid,
+
+/* #portfolio .container-fluid,
 #portfolio .container-sm,
 #portfolio .container-md,
 #portfolio .container-lg,
@@ -11369,4 +11377,4 @@ header.masthead .h1 {
 #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
     opacity: 1;
-}
+} */
