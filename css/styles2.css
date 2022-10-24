@@ -475,7 +475,7 @@ li {
 }
 
 .img-fluid-project {
-    max-width: 70vw;
+    max-width: 60vw;
     /* height: ; */
     object-fit: cover;
     margin: auto;
