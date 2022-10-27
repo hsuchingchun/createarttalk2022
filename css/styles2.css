@@ -478,7 +478,7 @@ li {
     max-width: 60vw;
     /* height: ; */
     object-fit: cover;
-    margin: auto;
+    margin: 0 auto;
 }
 
 
