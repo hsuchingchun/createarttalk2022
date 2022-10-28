@@ -6781,6 +6781,7 @@ fieldset:disabled .btn {
     height: 100%;
     opacity: 0;
     color: #ffffff;
+    text-align: start;
 }
 
 .carousel-caption:hover {
