@@ -75,5 +75,14 @@ $(() => {
         $('#project li').not('.co-play').addClass('hide-filter');
     });
 
+    $('.filter').on('click', '.el-fence', function() {
+        $('.filter-border').removeClass('filter-border');
+        $('.filter h6').filter('.el-fence').addClass('filter-border')
+
+
+        $('.hide-filter').removeClass('hide-filter');
+        $('#project li').not('.el-fence').addClass('hide-filter');
+    });
+
 
 });

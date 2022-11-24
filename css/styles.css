@@ -248,9 +248,9 @@ strong {
 
 small,
 .small {
-    /* font-size: 0.875em; */
-    font-size: 1em;
-    font-weight: 400;
+    font-size: 0.875em;
+    /* font-size: 1em; */
+    font-weight: 300;
 }
 
 mark,
